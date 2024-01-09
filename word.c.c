@@ -9,7 +9,7 @@ int main() {
         int countA = 0, countB = 0, countC = 0;
         char missingChar;
 
-        // Input the Latin square
+        
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 scanf(" %c", &square[i][j]);
@@ -20,7 +20,7 @@ int main() {
             }
         }
 
-        // Determine the missing character
+        
         if (countA == 2 && countB == 1) {
             printf("C\n");
         } else if (countA == 2 && countC == 1) {
